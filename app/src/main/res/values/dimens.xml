@@ -3,4 +3,5 @@
     <dimen name="maximum_corner_radius">50dp</dimen>
     <dimen name="minimum_corner_radius">10dp</dimen>
     <dimen name="default_padding">50dp</dimen>
+    <dimen name="zero">0dp</dimen>
 </resources>
