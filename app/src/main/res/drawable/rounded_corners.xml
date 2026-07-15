@@ -7,7 +7,7 @@
         android:topRightRadius="@dimen/minimum_corner_radius"
         android:bottomRightRadius="@dimen/maximum_corner_radius"
         android:bottomLeftRadius="@dimen/minimum_corner_radius"/>
-    <stroke android:width="0dp"/>
+    <stroke android:width="@dimen/zero"/>
     <padding
         android:left="5dp"
         android:top="5dp"
