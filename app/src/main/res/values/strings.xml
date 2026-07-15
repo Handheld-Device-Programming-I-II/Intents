@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Intent</string>
+    <string name="home_Btn_text">Move To Login</string>
 </resources>
