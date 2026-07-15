@@ -16,6 +16,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //layout file configuration and initialization
         setContentView(R.layout.activity_home);
+        this.homeBtn = findViewById(R.id.homeBtn);
     }
 
     @Override
