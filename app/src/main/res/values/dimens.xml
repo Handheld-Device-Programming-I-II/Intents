@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="maximum_corner_radius">50dp</dimen>
-    <dimen name="minimum_corner_radius">50dp</dimen>
+    <dimen name="minimum_corner_radius">10dp</dimen>
+    <dimen name="default_padding">50dp</dimen>
 </resources>
