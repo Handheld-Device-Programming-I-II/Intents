@@ -11,5 +11,11 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState);
+        //layout
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
     }
 }
