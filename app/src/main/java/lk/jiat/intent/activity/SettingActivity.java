@@ -1,7 +1,6 @@
 package lk.jiat.intent.activity;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
