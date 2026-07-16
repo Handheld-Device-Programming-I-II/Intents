@@ -1,4 +1,6 @@
 package lk.jiat.intent.activity;
 
-public class SettingActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SettingActivity extends AppCompatActivity {
 }
