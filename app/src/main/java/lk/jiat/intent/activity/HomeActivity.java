@@ -22,6 +22,6 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        //caling listeners
+        //calling listeners
     }
 }
