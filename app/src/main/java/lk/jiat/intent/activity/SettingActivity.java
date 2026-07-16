@@ -16,4 +16,9 @@ public class SettingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_setting);
         this.settingBtn=findViewById(R.id.settingBtn);
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
