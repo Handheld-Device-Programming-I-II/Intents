@@ -2,6 +2,7 @@ package lk.jiat.intent.activity;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.annotation.Nullable;
@@ -23,6 +24,12 @@ public class HomeActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         //calling listeners
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                moveToSetting();
+            }
+        });
     }
 
     private void moveToSetting(){
