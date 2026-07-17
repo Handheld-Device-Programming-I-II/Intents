@@ -24,4 +24,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onResume();
         //calling listeners
     }
+
+    private void moveToSetting(){
+
+    }
 }
