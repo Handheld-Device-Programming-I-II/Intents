@@ -1,5 +1,6 @@
 package lk.jiat.intent.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
@@ -33,6 +34,6 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void moveToSetting(){
-
+        Intent intent = new Intent();
     }
 }
