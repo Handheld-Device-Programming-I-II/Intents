@@ -35,5 +35,6 @@ public class HomeActivity extends AppCompatActivity {
 
     private void moveToSetting(){
         Intent intent = new Intent(HomeActivity.this, SettingActivity.class);
+        startActivity(intent);
     }
 }
