@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Intent</string>
-    <string name="home_Btn_text">Move To Login</string>
+    <string name="home_Btn_text">Move To Setting</string>
     <string name="setting_btn_txt">Back To Home</string>
 </resources>
