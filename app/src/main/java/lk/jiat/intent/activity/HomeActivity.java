@@ -24,7 +24,7 @@ public class HomeActivity extends AppCompatActivity {
 
         //access data
         String username = getIntent().getStringExtra("username");
-        Log.i(SettingActivity.)
+        Log.i(SettingActivity.class.getSimpleName(), "onCreate: " + username);
     }
 
     @Override
