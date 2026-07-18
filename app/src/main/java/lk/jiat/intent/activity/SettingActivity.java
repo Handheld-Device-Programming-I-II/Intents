@@ -12,6 +12,7 @@ import lk.jiat.intent.R;
 
 public class SettingActivity extends AppCompatActivity {
     private Button settingBtn;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

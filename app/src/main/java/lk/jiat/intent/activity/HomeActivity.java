@@ -13,6 +13,7 @@ import lk.jiat.intent.R;
 
 public class HomeActivity extends AppCompatActivity {
     private Button homeBtn;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,7 @@ public class HomeActivity extends AppCompatActivity {
 
     private void moveToSetting(){
         Intent intent = new Intent(HomeActivity.this, SettingActivity.class);
+        intent.putExtra("username", "kalhara");
         startActivity(intent);
     }
 }
