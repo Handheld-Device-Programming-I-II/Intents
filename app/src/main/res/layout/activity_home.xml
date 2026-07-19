@@ -24,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/browse_btn_txt"
-        android:background="@drawable/rounded_corners"/>
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@null"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
