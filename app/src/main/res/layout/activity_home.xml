@@ -27,6 +27,6 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="@null"
         android:textAllCaps="false"
-        android:layout_marginTop="@dimen/default_margin"/>
+        android:layout_marginTop="@dimen/default_margin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
