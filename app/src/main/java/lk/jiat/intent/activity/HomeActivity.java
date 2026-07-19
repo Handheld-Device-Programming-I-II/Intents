@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import lk.jiat.intent.R;
 
 public class HomeActivity extends AppCompatActivity {
-    private Button homeBtn;
+    private Button homeBtn, browserBtn;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
