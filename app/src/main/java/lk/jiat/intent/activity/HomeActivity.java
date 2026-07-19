@@ -20,6 +20,7 @@ public class HomeActivity extends AppCompatActivity {
         //layout file configuration and initialization
         setContentView(R.layout.activity_home);
         this.homeBtn = findViewById(R.id.homeBtn);
+        this.browserBtn = findViewById(R.id.browserBtn);
 
     }
 
