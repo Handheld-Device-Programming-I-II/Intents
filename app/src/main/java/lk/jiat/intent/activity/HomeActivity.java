@@ -42,6 +42,10 @@ public class HomeActivity extends AppCompatActivity {
         });
     }
 
+    private void openWebPage(){
+
+    }
+
     private void moveToSetting(){
         Intent intent = new Intent(HomeActivity.this, SettingActivity.class);
         intent.putExtra("username", "kalhara");
