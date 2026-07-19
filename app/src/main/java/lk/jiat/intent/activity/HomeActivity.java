@@ -34,6 +34,12 @@ public class HomeActivity extends AppCompatActivity {
                 moveToSetting();
             }
         });
+        browserBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 
     private void moveToSetting(){
