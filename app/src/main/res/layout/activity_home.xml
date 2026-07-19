@@ -29,6 +29,7 @@
         android:textAllCaps="false"
         android:layout_marginTop="@dimen/default_margin"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homeBtn"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
